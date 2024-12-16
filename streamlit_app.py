@@ -1,7 +1,10 @@
 # Import python packages
-import streamlit as st
-from snowflake.snowpark.context import get_active_session
+import streamlit as st 
 from snowflake.snowpark.functions import col
+
+#the following import is only for SiS (Streamlit in Snowflake), not for SniS (Streamlit not in Snowflake) - commented out
+#from snowflake.snowpark.context import get_active_session
+
 
 # Write directly to the app
 st.title(":cup_with_straw: Customise your Smoothie! :cup_with_straw:")
